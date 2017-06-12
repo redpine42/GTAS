@@ -1,6 +1,6 @@
 node {
     stage('Clone sources') {
-        git url: https://github.com/redpine42/GTAS.git'
+        git url: 'https://github.com/redpine42/GTAS.git'
     }
 
     stage('Maven build') {
