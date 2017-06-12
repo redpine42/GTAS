@@ -5,10 +5,10 @@ node{
  
     withMaven(
         // Maven installation declared in the Jenkins "Global Tool Configuration"
-        maven: 'Maven'
+      maven: 'Maven') {
  
       // Run the maven build
       sh "mvn clean install"
- 
+    }
   }
 }
